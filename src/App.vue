@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div class="full-height">
     <NavBar/>
-    <main>
+    <main class="content">
       <router-view></router-view>
     </main>
     <Footer/>
@@ -22,4 +22,15 @@ export default {
 </script>
 
 <style>
+
+.full-height {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main.content {
+  flex: 1;
+  padding-top: 3.25em;
+}
 </style>
