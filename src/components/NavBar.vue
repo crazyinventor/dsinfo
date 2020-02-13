@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link to="/" class="navbar-item">
-        CrazyInventor
+        David Schneider
       </router-link>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"  @click="showNav = !showNav" :class="{ 'is-active': showNav }">
         <span aria-hidden="true"></span>

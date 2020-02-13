@@ -1,7 +1,14 @@
 <template>
   <div>
-    <h1 class="title">About</h1>
-    <hr/>
+    <div class="hero is-success">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            About Me
+          </h1>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

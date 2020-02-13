@@ -1,7 +1,14 @@
 <template>
   <div>
-    <h1 class="title">Portfolio</h1>
-    <hr/>
+    <div class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Portfolio
+          </h1>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

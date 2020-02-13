@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <div class="content has-text-centered">
+    <div class="has-text-centered">
       <p>
-        <strong>CrazyInventor.net</strong> by
+        <strong>DavidSchneider.info</strong> by
         <a href="https://www.davidschneider.info/">David Schneider</a>. The
         source code is licensed
         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The

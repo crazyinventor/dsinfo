@@ -1,7 +1,14 @@
 <template>
   <div>
-    <h1 class="title">Contact</h1>
-    <hr/>
+    <div class="hero is-warning">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Contact Me
+          </h1>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
