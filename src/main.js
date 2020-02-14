@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
+import 'bulma/bulma.sass'
+import '../sass/style.scss'
+import '@fortawesome/fontawesome-free/css/all.css'
 import router from './router';
-
-Vue.use(Buefy)
 
 Vue.config.productionTip = false
 

@@ -9,12 +9,19 @@
         </div>
       </div>
     </div>
+    <Portfolio/>
   </div>
 </template>
 
 <script>
+
+import Portfolio from '../Elements/Portfolio';
+
 export default {
-  name: 'PortfolioPage'
+  name: 'PortfolioPage',
+  components: {
+    Portfolio
+  }
 }
 </script>
 

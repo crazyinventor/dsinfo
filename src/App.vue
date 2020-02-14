@@ -32,5 +32,6 @@ export default {
 main.content {
   flex: 1;
   padding-top: 3.25em;
+  background-color: white;
 }
 </style>

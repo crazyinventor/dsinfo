@@ -9,6 +9,7 @@
         </div>
       </div>
     </div>
+    <p class="has-text-centered">Sorry, the contact form is not working at the moment. Please come back later.</p>
   </div>
 </template>
 
