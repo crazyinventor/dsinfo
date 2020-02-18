@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hero is-info">
+    <div class="hero page-portfolio">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -9,7 +9,9 @@
         </div>
       </div>
     </div>
-    <Portfolio/>
+    <div class="container">
+      <Portfolio/>
+    </div>
   </div>
 </template>
 

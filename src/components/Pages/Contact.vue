@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hero is-warning">
+    <div class="hero page-contact">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -9,7 +9,9 @@
         </div>
       </div>
     </div>
-    <p class="has-text-centered">Sorry, the contact form is not working at the moment. Please come back later.</p>
+    <div class="container">
+      <p class="has-text-centered">Sorry, the contact form is not working at the moment. Please come back later.</p>
+    </div>
   </div>
 </template>
 

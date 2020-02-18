@@ -11,3 +11,20 @@ $body-background-color: #333333;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+
+.page-about {
+  background-color: #BCD39C;
+}
+
+.page-contact {
+  background-color: #FCFF4B;
+}
+
+.page-lander {
+  background-color: #0B4F6C;
+  .title, .subtitle { color: #fff; }
+}
+
+.page-portfolio {
+  background-color: #B4E33D;
+}

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hero is-success">
+    <div class="hero page-about">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -8,6 +8,9 @@
           </h1>
         </div>
       </div>
+    </div>
+    <div class="container">
+      yadda
     </div>
   </div>
 </template>
