@@ -16,7 +16,7 @@ node {
     stage('Upload') {
         if(env.BRANCH_NAME == "master") {
             sh "tar -zcvf master-${scmVars.GIT_COMMIT}.tar.gz ./dist"
-            googleStorageUpload bucket: 'gs://crazyinventor-build-artifacts/dsinfo', pattern: "master-${scmVars.GIT_COMMIT}.tar.gz", credentialsId: 'crazyinventor'
+            googleStorageUpload bucket: 'gs://crazyinventor-builds/artifacts/dsinfo', pattern: "master-${scmVars.GIT_COMMIT}.tar.gz", credentialsId: 'crazyinventor'
             sh "rm master-${scmVars.GIT_COMMIT}.tar.gz"
         }
     }
